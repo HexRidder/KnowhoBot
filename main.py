@@ -37,7 +37,7 @@ You must subscribe our channel in order to use me😇
 def newbt(client,callback_query):
     txt=callback_query.data
     if txt=="about":
-        callback_query.message.edit(text=f"`Bot`            : [KnowWho Bot](t.me/know_who_bot)\n`Creator :` [HexRider](t.me/Hexrider)\n`Language:` [Python3](https://python.org)\n`Library :` [Pyrogram](https://docs.pyrogram.org/) \n`Server  :` [Heroku](https://herokuapp.com/)",
+        callback_query.message.edit(text=f"`Bot`            : [KnowWho Bot](t.me/know_who_bot)\n`Creator :` [HexRider](t.me/Hexrider)&[DIAGO](https:t.me/diago_x)\n`Language:` [Python3](https://python.org)\n`Library :` [Pyrogram](https://docs.pyrogram.org/) \n`Server  :` [Heroku](https://herokuapp.com/)",
                         disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("Give Feedback", url="t.me/Hexrider")]]))
     elif txt=="src":
